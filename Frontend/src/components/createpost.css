@@ -1,0 +1,56 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6fb;
+}
+
+.card {
+  width: 360px;
+  padding: 28px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  text-align: center;
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+}
+
+.input,
+.fileInput {
+  padding: 11px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.input:focus {
+  border-color:#fe8acc;
+  box-shadow: 0 0 0 3px rgba(124, 131, 253, 0.15);
+}
+
+.button {
+  padding: 11px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(135deg, #e7b9d0, #fe8acc);
+  transition: 0.3s;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(78, 84, 200, 0.3);
+}
